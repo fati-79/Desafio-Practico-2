@@ -55,7 +55,9 @@ namespace EJERCICIO_8
 
 
 
-                    Console.WriteLine("Desea continuar con el juego? (si/no)");
+                  
+            }
+            Console.WriteLine("Desea continuar con el juego? (si/no)");
                     respuesta = Console.ReadLine().ToLower();
                 if (respuesta == "no")
                 {
@@ -63,9 +65,6 @@ namespace EJERCICIO_8
                     Console.WriteLine("Gracias por jugar");
                     Environment.Exit(0);
                 }
-                  
-            }
-            
  
             Console.ReadKey();
         }
