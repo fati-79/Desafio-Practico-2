@@ -26,7 +26,7 @@ namespace EJERCICIO_8
 
             for (i = 10; i > 0; i--)
                 {
-                    Console.WriteLine("le quuedan [" + i + "] intentos  : ");
+                    Console.WriteLine("le quedan [" + i + "] intentos  : ");
 
                     Console.WriteLine("ingrese un numero entre 1 y 100: ");              
                 numeroUsuario = int.Parse(Console.ReadLine());
